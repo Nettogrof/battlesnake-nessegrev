@@ -2,7 +2,7 @@
 
 This is a release of my current snakes.
 
-The goal of the release is to let developers to use them to test their snakes via the [BattleSnake-CLI](https://github.com/BattlesnakeOfficial/rules/tree/master/cli) or with [Mojave](https://github.com/smallsco/mojave)
+The goal of the release is to let developers to use them to test their snakes via the [BattleSnake-CLI](https://github.com/BattlesnakeOfficial/rules/tree/master/cli) or with [Mojave](https://github.com/smallsco/mojave).
 You won't be able to use those snakes to run on [BattleSnake](https://play.battlesnake.com) because my snakes are "Author" protected. 
 
 ## Snake description
@@ -31,10 +31,11 @@ For Alpha, Beta and Gamma, you may add memory config  example : "java  -Xmx1024m
 
 The snake will listen on the port number from the .properties file.
 
+
 # Release note
 
-## 2021-03-09   New release of the .jar
+## 2021-03-09   New release
 * Gamma and Beta can now be multitread.
-* Fixed the issue that Gamma / Beta wasn't able to play on a non-square board.
+* Fixed the issue that Gamma / Beta wasn't able to play on a non-squared board.
 * Improve Gamma area control algorithm
 * Few performances adjustement.
